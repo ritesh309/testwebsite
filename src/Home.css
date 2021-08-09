@@ -1,0 +1,52 @@
+#header {
+  width: 100%;
+
+  margin-top: 70px;
+}
+h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+.brand-name {
+  color: blue;
+}
+h2 {
+  columns: brown;
+  font-size: 25px;
+}
+.btn-get-started {
+  font-weight: 500;
+  font-style: 16px;
+  padding: 10px 30px;
+  letter-spacing: 1px;
+  display: inline-block;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: blue;
+  border: 2px solid blue;
+  text-decoration: none;
+}
+
+.btn-get-started:hover {
+  background: blue;
+  color: white;
+}
+img {
+  text-align: right;
+  width: 500px;
+  height: 150px;
+}
+.animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(7px);
+  }
+  100% {
+    transform: translateY(-19px);
+  }
+}
